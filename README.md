@@ -1,4 +1,4 @@
-# EkalaRTK
+# EkalaRTK (Ongoing)
 A Real Estate Tokenization Platform
 
 ## Table of Contents
@@ -24,7 +24,7 @@ EkalaRTK digitizes real estate properties on a Bitcoin sidechain, allowing for f
 ## How We Built It
 EkalaRTK was built using a combination of blockchain technology and modern web development tools. Here's an overview of the technologies and methodologies used:
 
-- **Blockchain:** Utilized Bitcoin's sidechain, specifically RSK, to handle tokenization and smart contracts.
+- **Blockchain:** Utilized Bitcoin's sidechain, specifically Rootstock (RSK), to handle tokenization and smart contracts.
 - **Smart Contracts:** Developed smart contracts in Solidity to manage the creation, distribution, and transfer of RealTokens.
 - **Front-End:** Built the user interface using React.js, providing a seamless experience for investors and property managers.
 - **Back-End:** Implemented the back-end using Node.js and Express.js to handle API requests and integrate with the blockchain.
@@ -60,19 +60,33 @@ Throughout the development of EkalaRTK, we gained valuable insights:
 - **Security:** Ensuring robust security measures is fundamental to protect user assets and maintain platform integrity.
 
 ## Layer 2 Solution and Integration
-EkalaRTK utilizes Bitcoin's sidechain technology, specifically Rootstock (RSK), as its Layer 2 solution. RSK is a smart contract platform secured by the Bitcoin network, providing Ethereum-compatible functionality with faster transaction times and lower fees compared to Bitcoin's mainchain. We integrated RSK to handle the tokenization of real estate properties into RealTokens (RTK) and manage transactions on our decentralized exchange (DEX). This integration significantly improves scalability and usability by leveraging RSK's enhanced smart contract capabilities while maintaining the security and decentralization of the Bitcoin network.
+EkalaRTK utilizes Rootstock (RSK), a Bitcoin sidechain platform, as its Layer 2 solution. RSK integrates with Bitcoin through a federated peg mechanism, allowing for the transfer of BTC to RBTC (Rootstock BTC) on the RSK blockchain. Here’s how we implemented RSK in EkalaRTK:
+
+- **Smart Contract Development:** Developed Solidity smart contracts on RSK to tokenize real estate properties into RealTokens (RTK).
+- **Web3.js Integration:** Integrated Web3.js to interact with RSK smart contracts from the React.js front-end, enabling users to manage RTK tokens seamlessly.
+- **Decentralized Exchange (DEX):** Adapted our DEX module to support trading of RTK tokens on the RSK blockchain, leveraging RSK's faster transaction times and lower fees.
+- **Security Measures:** Implemented multi-signature wallets and secure key management systems on RSK to enhance the security of user assets and transactions.
+- **Compliance and Regulatory Adherence:** Integrated KYC/AML checks using Chainalysis on the RSK platform to ensure compliance with regulatory standards.
+
+This integration improves the scalability and usability of Bitcoin by enabling faster transaction processing and lower fees for real estate tokenization and trading on EkalaRTK.
 
 ## What's Next for EkalaRTK: A Real Estate Chain
 Moving forward, EkalaRTK has several exciting developments planned:
 
-- **Expansion of Property Listings:** We aim to onboard more properties from various regions, offering a diverse range of investment opportunities.
-- **Enhanced Features:** We plan to introduce advanced features such as automated rental income distribution and detailed property analytics.
-- **Mobile Application:** Developing a mobile app to make real estate investment even more accessible on the go.
-- **Partnerships:** Forming strategic partnerships with real estate agencies and financial institutions to expand our reach and credibility.
-- **Community Building:** Fostering a strong community of investors and property managers through educational content, webinars, and forums.
+- **Expansion of Property Listings:** Onboard more properties globally, offering diverse investment opportunities.
+- **Enhanced Features:** Introduce automated rental income distribution and detailed property analytics.
+- **Mobile Application:** Develop a mobile app for convenient real estate investment management.
+- **Partnerships:** Form strategic alliances with real estate agencies and financial institutions.
+- **Community Building:** Foster a vibrant community of investors and property managers through educational initiatives and forums.
 
-EkalaRTK is poised to revolutionize the real estate investment landscape, making it more inclusive, transparent, and efficient. We are excited to continue our journey and bring innovative solutions to the market.
+EkalaRTK continues to innovate in the real estate investment space, leveraging blockchain technology to democratize access, enhance transparency, and improve efficiency.
 
+## References
+- **Blockchain Documentation:** [RSK](https://developers.rsk.co), [Ethereum](https://ethereum.org/en/developers)
+- **PHP Framework:** [Laravel](https://laravel.com/docs)
+- **Front-End Framework:** [React.js](https://reactjs.org/docs/getting-started.html)
+- **Compliance Standards:** [KYC/AML](https://www.fatf-gafi.org)
+  
 ## References
 - **Blockchain Documentation:** [RSK](https://developers.rsk.co), [Ethereum](https://ethereum.org/en/developers)
 - **PHP Framework:** [Laravel](https://laravel.com/docs)
