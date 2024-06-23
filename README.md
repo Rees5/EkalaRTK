@@ -1,8 +1,6 @@
 # EkalaRTK
 A Real Estate Tokenization Platform
 
-# Project Document: EkalaRTK - Real Estate Tokenization Platform
-
 ## Table of Contents
 
 1. [Inspiration](#inspiration)
