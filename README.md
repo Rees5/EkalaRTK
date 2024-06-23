@@ -9,13 +9,14 @@ A Real Estate Tokenization Platform
 4. [Challenges We Ran Into](#challenges-we-ran-into)
 5. [Accomplishments That We're Proud Of](#accomplishments-that-were-proud-of)
 6. [What We Learned](#what-we-learned)
-7. [What's Next for EkalaRTK: A Real Estate Chain](#whats-next-for-ekalartk-a-real-estate-chain)
-8. [References](#references)
+7. [Layer 2 Solution and Integration](#layer-2-solution-and-integration)
+8. [What's Next for EkalaRTK: A Real Estate Chain](#whats-next-for-ekalartk-a-real-estate-chain)
+9. [References](#references)
 
 ---
 
 ## Inspiration
-The inspiration behind **EkalaRTK** stems from the vision of democratizing real estate investment and making it accessible to a wider audience. Traditional real estate investment requires substantial capital, limiting participation to wealthy individuals and institutional investors. Furthermore, the process is often complex, illiquid, and lacks transparency. By leveraging Bitcoin's sidechain technology, EkalaRTK aims to transform real estate investment into a more inclusive, transparent, and efficient process. The goal is to allow anyone to invest in real estate by purchasing fractional shares of properties, thereby lowering the barrier to entry and enhancing liquidity in the real estate market. This project is a dedication to my mentee who lost her life at a very young age.
+The inspiration behind **EkalaRTK** stems from the vision of democratizing real estate investment and making it accessible to a wider audience. Traditional real estate investment requires substantial capital, limiting participation to wealthy individuals and institutional investors. Furthermore, the process is often complex, illiquid, and lacks transparency. By leveraging Bitcoin's sidechain technology, EkalaRTK aims to transform real estate investment into a more inclusive, transparent, and efficient process. The goal is to allow anyone to invest in real estate by purchasing fractional shares of properties, thereby lowering the barrier to entry and enhancing liquidity in the real estate market. This project is a dedication to my mentee **Laureen Ekala**, who lost her life at a very young age.
 
 ## What it Does
 EkalaRTK digitizes real estate properties on a Bitcoin sidechain, allowing for fractional ownership through tokenization. Each property is represented by digital tokens called RealTokens (RTK), which signify ownership shares. Investors can buy, sell, and trade these tokens on a decentralized exchange, providing liquidity and enabling real-time price discovery. The platform also integrates compliance tools to ensure regulatory adherence and offers a suite of management tools for property managers to handle maintenance, rental income distribution, and investor communications seamlessly. EkalaRTK thus bridges the gap between traditional real estate and modern blockchain technology, making real estate investment more accessible, liquid, and transparent.
@@ -58,6 +59,9 @@ Throughout the development of EkalaRTK, we gained valuable insights:
 - **Collaboration:** Effective collaboration between technical and compliance teams is key to addressing multi-faceted challenges.
 - **Security:** Ensuring robust security measures is fundamental to protect user assets and maintain platform integrity.
 
+## Layer 2 Solution and Integration
+EkalaRTK utilizes Bitcoin's sidechain technology, specifically Rootstock (RSK), as its Layer 2 solution. RSK is a smart contract platform secured by the Bitcoin network, providing Ethereum-compatible functionality with faster transaction times and lower fees compared to Bitcoin's mainchain. We integrated RSK to handle the tokenization of real estate properties into RealTokens (RTK) and manage transactions on our decentralized exchange (DEX). This integration significantly improves scalability and usability by leveraging RSK's enhanced smart contract capabilities while maintaining the security and decentralization of the Bitcoin network.
+
 ## What's Next for EkalaRTK: A Real Estate Chain
 Moving forward, EkalaRTK has several exciting developments planned:
 
@@ -74,3 +78,4 @@ EkalaRTK is poised to revolutionize the real estate investment landscape, making
 - **PHP Framework:** [Laravel](https://laravel.com/docs)
 - **Front-End Framework:** [React.js](https://reactjs.org/docs/getting-started.html)
 - **Compliance Standards:** [KYC/AML](https://www.fatf-gafi.org)
+
